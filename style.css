@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+     /* Main theme colors */
+    --primary-color: #7EBAB5;
+    --secondary-color: #0C0D11;
+    --accent-color: #171A25;
+
+      /* Text colors */
+      --text-primary: #7EBAB5;
+      --text-secondary: #757575;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.mainHeading{
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+.mainSection{
+    /* border: #757575 1px solid; */
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 35vw;
+    height: 60vh;
+}
+.secSen{
+    font-size: 2.3em;
+    font-weight: 300;
+}
+.MainBtn{
+  border: .5px solid var(--text-secondary);
+  background-color: var(--accent-color);
+    color: var(--text-primary);  
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+.MainBtn:hover{
+    background-color: var(--text-primary);
+    color: var(--accent-color);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.gameSection{
+    display: none;
+}
+.gameSection{
+    /* border: #757575 1px solid; */
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    padding: 2rem;
+    /* display: ; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 35vw;
+    height: 60vh;
+}
+.secHeading{
+    font-size: 2.3em;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+}
+.questionDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.FirstNumber, .SecNumber ,.AnswerNumber{
+    font-size: 5em;
+    font-weight: 300;
+    margin: 0 1rem;
+    padding: .2em;
+    border: var(--primary-color) 3px solid;
+    /* background-color: var(--primary-color); */
+    color: var(--text-secondary);
+    border-radius: 20px;
+}
+.SymbolAnswer,.Symbol{
+    font-size: 5em;
+    font-weight: 300;
+    margin: 0 1rem;
+    padding: .2em;
+    color: var(--text-secondary);
+}
+
+.optionsSection{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.optionBtn{
+    border: .5px solid var(--text-secondary);
+    background-color: var(--text-primary);  
+    color: var(--secondary-color);
+    font-size: 3em;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+.optionBtn:hover{
+    /* background-color: var(--text-secondary); */
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 1.5rem 2.5rem;
+    font-size: 5em;
+}
+.ResultForEach{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: .1rem 5rem;
+    border-radius: 20px;
+    gap: 2rem;
+    background-color: rgba(99, 248, 141, 0.704);
+    color: var(--accent-color);
+}
